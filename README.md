@@ -9,3 +9,5 @@ You can found script, step by step, etc. All the different resources made availa
 * **ExportCompteAD.txt** : It's my first powershell script. He permit to list expired user. This list is exported on csv file.
 
 * **TestCompteLocal.ps1** : Powershell script to create a local administrator account if it is not present on the machine. 
+
+* **RemoveWindowsOld.ps1.ps1** : Powershell script for remove Windows.old. After installing the Windows 10 Build, a Windows.old folder is present. This script allows you to take the property of the Windows.old folder and to proceed to its deletion. A log is created in order to know if the deletion is successful or not.
