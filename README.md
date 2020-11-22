@@ -13,3 +13,6 @@ You can found script, step by step, etc. All the different resources made availa
 * **RemoveWindowsOld.ps1** : Powershell script for remove Windows.old. After installing the Windows 10 Build, a Windows.old folder is present. This script allows you to take the property of the Windows.old folder and to proceed to its deletion. A log is created in order to know if the deletion is successful or not.
 
 * **Groupe et Membre.txt** : Powershell script for list Active Directory Groups and his member.
+
+* **ImportAccount.zip** : Powershell script for import user account on Active Directory. The CSV file contain the value of the LDAP attributes. Password for the user is enter on the first line on the script.
+
