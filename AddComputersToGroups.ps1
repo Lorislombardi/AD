@@ -22,6 +22,10 @@ Foreach ($ordAD in $ordiAD)
 }
 
 #Add computers in the csv file and create log file
+#Example for the CSV file : 
+   #Name;DistinguishedName
+   #CLW10;CN=CLW10,OU=Hybridation,OU=Workstation,OU=Formation,DC=Formation,DC=local
+   
 $ComputerCSV=Import-CSV -Path $CSVFile -Delimiter ";"
 Foreach ($ordAD in $ordiAD) 
 {
