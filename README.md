@@ -16,3 +16,4 @@ You can found script, step by step, etc. All the different resources made availa
 
 * **ImportAccount.zip** : Powershell script for import user account on Active Directory. The CSV file contain the value of the LDAP attributes. Password for the user is enter on the first line on the script.
 
+* **AddComputersToGroups** : Powershell script for import computer account to the groups. The script permit to import all device in the OU. You can also import the computer account with CSV file
