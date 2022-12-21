@@ -4,7 +4,7 @@ $OUName="OU=Workstation,OU=Formation,DC=Formation,DC=local"
 $CSVFile='C:\Users\Administrator\Desktop\Computer.csv'
 $LogFile='C:\Temp\LogAddComputers.txt'
 
-#List all objet in the OU
+#List all objet in the OU and create log file
 $ordiAD=Get-ADObject -Filter * -SearchBase $OUName | Select-Object name, DistinguishedName
 $ComputeraddedGroups=""
 Foreach ($ordAD in $ordiAD) 
@@ -21,7 +21,7 @@ Foreach ($ordAD in $ordiAD)
      
 }
 
-#Add computers in the csv file 
+#Add computers in the csv file and create log file
 $ComputerCSV=Import-CSV -Path $CSVFile -Delimiter ";"
 Foreach ($ordAD in $ordiAD) 
 {
